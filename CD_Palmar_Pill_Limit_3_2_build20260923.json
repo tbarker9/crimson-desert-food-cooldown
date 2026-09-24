@@ -1,0 +1,52 @@
+{
+  "modinfo": {
+    "title": "CD Palmar Pill Limit 3/2 (build 2026-09-23)",
+    "version": "1.0.0",
+    "author": "Tommy",
+    "description": "Limits how many Palmar Pills you can carry: 3 Palmar Pills and 2 Refined Palmar Pills in total (vanilla 10 each). Lowers max_stack_count and turns on apply_max_stack_cap (the same total-carry cap the game uses for Refinement Tokens) in iteminfo. Built against game data 0.paver 020003000200e3cc19cb (2026-09-23 update); each change carries entry + rel_offset so DMM can re-anchor after future patches."
+  },
+  "format": 2,
+  "patches": [
+    {
+      "game_file": "gamedata/iteminfo.pabgb",
+      "changes": [
+        {
+          "type": "replace",
+          "offset": 2674049,
+          "entry": "RevivalItemPartialRecovery",
+          "rel_offset": 1,
+          "original": "0a00000000000000",
+          "patched": "0300000000000000",
+          "label": "Palmar Pill (RevivalItemPartialRecovery) max_stack_count: 10->3"
+        },
+        {
+          "type": "replace",
+          "offset": 2674208,
+          "entry": "RevivalItemPartialRecovery",
+          "rel_offset": 160,
+          "original": "00",
+          "patched": "01",
+          "label": "Palmar Pill (RevivalItemPartialRecovery) apply_max_stack_cap: 0->1 (cap total held at 3)"
+        },
+        {
+          "type": "replace",
+          "offset": 2673413,
+          "entry": "RevivalItem",
+          "rel_offset": 1,
+          "original": "0a00000000000000",
+          "patched": "0200000000000000",
+          "label": "Refined Palmar Pill (RevivalItem) max_stack_count: 10->2"
+        },
+        {
+          "type": "replace",
+          "offset": 2673572,
+          "entry": "RevivalItem",
+          "rel_offset": 160,
+          "original": "00",
+          "patched": "01",
+          "label": "Refined Palmar Pill (RevivalItem) apply_max_stack_cap: 0->1 (cap total held at 2)"
+        }
+      ]
+    }
+  ]
+}
