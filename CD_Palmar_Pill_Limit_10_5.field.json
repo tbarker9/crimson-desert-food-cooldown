@@ -1,0 +1,33 @@
+{
+  "format": 3,
+  "modinfo": {
+    "author": "Tommy",
+    "description": "Limits how many Palmar Pills you can carry: 10 Palmar Pill(s) and 5 Refined Palmar Pill(s) in total (vanilla 10 each), using max_stack_count plus apply_max_stack_cap (the total-carry cap the game uses for Refinement Tokens). Built for Crimson Desert 2.03.02. Field-name (V3) mod: DMM locates each field itself, so it survives game updates that move data.",
+    "title": "CD Palmar Pill Limit 10/5",
+    "version": "2.03.02"
+  },
+  "target": "iteminfo.pabgb",
+  "intents": [
+    {
+      "entry": "RevivalItem",
+      "field": "apply_max_stack_cap",
+      "key": 1000634,
+      "new": 1,
+      "op": "set"
+    },
+    {
+      "entry": "RevivalItem",
+      "field": "max_stack_count",
+      "key": 1000634,
+      "new": 5,
+      "op": "set"
+    },
+    {
+      "entry": "RevivalItemPartialRecovery",
+      "field": "apply_max_stack_cap",
+      "key": 1001959,
+      "new": 1,
+      "op": "set"
+    }
+  ]
+}
