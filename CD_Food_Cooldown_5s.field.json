@@ -2,7 +2,7 @@
   "format": 3,
   "modinfo": {
     "author": "Tommy",
-    "description": "Sets all food shared cooldown to 5 seconds (5000ms) for 477 items. Vanilla is 1s. Built for Crimson Desert 2.03.02. Food cooldown based on CD Food Cooldown by Rogue69 (Nexus mod 3090). Field-name (V3) mod: DMM locates each field itself, so it survives game updates that move data.",
+    "description": "Sets all food shared cooldown to 5 seconds (5000ms) for 593 consumables (food, herbs, insects, holy water). Vanilla is 1s. Built for Crimson Desert 2.03.02. Food cooldown based on CD Food Cooldown by Rogue69 (Nexus mod 3090). Field-name (V3) mod: DMM locates each field itself, so it survives game updates that move data.",
     "title": "CD Food Cooldown 5s",
     "version": "2.03.02"
   },
@@ -10022,6 +10022,2442 @@
       "entry": "Pear",
       "field": "cooltime.c",
       "key": 1001843,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_dragonfly",
+      "field": "cooltime.a",
+      "key": 1001245,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_dragonfly",
+      "field": "cooltime.b",
+      "key": 1001245,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_dragonfly",
+      "field": "cooltime.c",
+      "key": 1001245,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_DiademSpider",
+      "field": "cooltime.a",
+      "key": 1000583,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_DiademSpider",
+      "field": "cooltime.b",
+      "key": 1000583,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_DiademSpider",
+      "field": "cooltime.c",
+      "key": 1000583,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Silkworm_Moth",
+      "field": "cooltime.a",
+      "key": 1002082,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Silkworm_Moth",
+      "field": "cooltime.b",
+      "key": 1002082,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Silkworm_Moth",
+      "field": "cooltime.c",
+      "key": 1002082,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Luna_Moth",
+      "field": "cooltime.a",
+      "key": 1002083,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Luna_Moth",
+      "field": "cooltime.b",
+      "key": 1002083,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Luna_Moth",
+      "field": "cooltime.c",
+      "key": 1002083,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Eastern_Tiger_Swallowtail",
+      "field": "cooltime.a",
+      "key": 1000020,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Eastern_Tiger_Swallowtail",
+      "field": "cooltime.b",
+      "key": 1000020,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Eastern_Tiger_Swallowtail",
+      "field": "cooltime.c",
+      "key": 1000020,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Ornythion_Swallowtail",
+      "field": "cooltime.a",
+      "key": 1000025,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Ornythion_Swallowtail",
+      "field": "cooltime.b",
+      "key": 1000025,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Ornythion_Swallowtail",
+      "field": "cooltime.c",
+      "key": 1000025,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Polydamas_Swallowtail",
+      "field": "cooltime.a",
+      "key": 1000055,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Polydamas_Swallowtail",
+      "field": "cooltime.b",
+      "key": 1000055,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Polydamas_Swallowtail",
+      "field": "cooltime.c",
+      "key": 1000055,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Zebra_Swallowtail",
+      "field": "cooltime.a",
+      "key": 1000056,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Zebra_Swallowtail",
+      "field": "cooltime.b",
+      "key": 1000056,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Zebra_Swallowtail",
+      "field": "cooltime.c",
+      "key": 1000056,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Zebra_Heliconian",
+      "field": "cooltime.a",
+      "key": 1000694,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Zebra_Heliconian",
+      "field": "cooltime.b",
+      "key": 1000694,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Zebra_Heliconian",
+      "field": "cooltime.c",
+      "key": 1000694,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Kallima_Inachus",
+      "field": "cooltime.a",
+      "key": 1001933,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Kallima_Inachus",
+      "field": "cooltime.b",
+      "key": 1001933,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Kallima_Inachus",
+      "field": "cooltime.c",
+      "key": 1001933,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Common_Nawab",
+      "field": "cooltime.a",
+      "key": 1001919,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Common_Nawab",
+      "field": "cooltime.b",
+      "key": 1001919,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Common_Nawab",
+      "field": "cooltime.c",
+      "key": 1001919,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Purple_Emperor",
+      "field": "cooltime.a",
+      "key": 1001917,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Purple_Emperor",
+      "field": "cooltime.b",
+      "key": 1001917,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Purple_Emperor",
+      "field": "cooltime.c",
+      "key": 1001917,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Colias_Nastes",
+      "field": "cooltime.a",
+      "key": 1001929,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Colias_Nastes",
+      "field": "cooltime.b",
+      "key": 1001929,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Colias_Nastes",
+      "field": "cooltime.c",
+      "key": 1001929,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Malachite",
+      "field": "cooltime.a",
+      "key": 1001007,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Malachite",
+      "field": "cooltime.b",
+      "key": 1001007,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Malachite",
+      "field": "cooltime.c",
+      "key": 1001007,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Myscelia_Ethusa",
+      "field": "cooltime.a",
+      "key": 1001932,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Myscelia_Ethusa",
+      "field": "cooltime.b",
+      "key": 1001932,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Myscelia_Ethusa",
+      "field": "cooltime.c",
+      "key": 1001932,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Blue_Copper",
+      "field": "cooltime.a",
+      "key": 1000223,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Blue_Copper",
+      "field": "cooltime.b",
+      "key": 1000223,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Blue_Copper",
+      "field": "cooltime.c",
+      "key": 1000223,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Eastern_Tailed_Blue",
+      "field": "cooltime.a",
+      "key": 1000227,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Eastern_Tailed_Blue",
+      "field": "cooltime.b",
+      "key": 1000227,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Eastern_Tailed_Blue",
+      "field": "cooltime.c",
+      "key": 1000227,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Theona_Checkerspot",
+      "field": "cooltime.a",
+      "key": 1000254,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Theona_Checkerspot",
+      "field": "cooltime.b",
+      "key": 1000254,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Theona_Checkerspot",
+      "field": "cooltime.c",
+      "key": 1000254,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Little_Metalmark",
+      "field": "cooltime.a",
+      "key": 1000561,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Little_Metalmark",
+      "field": "cooltime.b",
+      "key": 1000561,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Little_Metalmark",
+      "field": "cooltime.c",
+      "key": 1000561,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Guava_Skipper",
+      "field": "cooltime.a",
+      "key": 1001915,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Guava_Skipper",
+      "field": "cooltime.b",
+      "key": 1001915,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Guava_Skipper",
+      "field": "cooltime.c",
+      "key": 1001915,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Blue_Pansy_Butterfly",
+      "field": "cooltime.a",
+      "key": 1001918,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Blue_Pansy_Butterfly",
+      "field": "cooltime.b",
+      "key": 1001918,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Blue_Pansy_Butterfly",
+      "field": "cooltime.c",
+      "key": 1001918,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Great_Purple_Hairstreak",
+      "field": "cooltime.a",
+      "key": 1000147,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Great_Purple_Hairstreak",
+      "field": "cooltime.b",
+      "key": 1000147,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Great_Purple_Hairstreak",
+      "field": "cooltime.c",
+      "key": 1000147,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Spicebush_Swallowtail",
+      "field": "cooltime.a",
+      "key": 1000035,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Spicebush_Swallowtail",
+      "field": "cooltime.b",
+      "key": 1000035,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Spicebush_Swallowtail",
+      "field": "cooltime.c",
+      "key": 1000035,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Pipevine_Swallowtail",
+      "field": "cooltime.a",
+      "key": 1000042,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Pipevine_Swallowtail",
+      "field": "cooltime.b",
+      "key": 1000042,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Pipevine_Swallowtail",
+      "field": "cooltime.c",
+      "key": 1000042,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Firefly",
+      "field": "cooltime.a",
+      "key": 1001292,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Firefly",
+      "field": "cooltime.b",
+      "key": 1001292,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Firefly",
+      "field": "cooltime.c",
+      "key": 1001292,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_GrassHopper",
+      "field": "cooltime.a",
+      "key": 1000680,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_GrassHopper",
+      "field": "cooltime.b",
+      "key": 1000680,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_GrassHopper",
+      "field": "cooltime.c",
+      "key": 1000680,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Bee",
+      "field": "cooltime.a",
+      "key": 1001859,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Bee",
+      "field": "cooltime.b",
+      "key": 1001859,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Bee",
+      "field": "cooltime.c",
+      "key": 1001859,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Hornet",
+      "field": "cooltime.a",
+      "key": 1001860,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Hornet",
+      "field": "cooltime.b",
+      "key": 1001860,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Hornet",
+      "field": "cooltime.c",
+      "key": 1001860,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Bumblebee",
+      "field": "cooltime.a",
+      "key": 1001861,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Bumblebee",
+      "field": "cooltime.b",
+      "key": 1001861,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Bumblebee",
+      "field": "cooltime.c",
+      "key": 1001861,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Banded_Peacock",
+      "field": "cooltime.a",
+      "key": 1001006,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Banded_Peacock",
+      "field": "cooltime.b",
+      "key": 1001006,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Banded_Peacock",
+      "field": "cooltime.c",
+      "key": 1001006,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Common_Green_Birdwing",
+      "field": "cooltime.a",
+      "key": 1001920,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Common_Green_Birdwing",
+      "field": "cooltime.b",
+      "key": 1001920,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Common_Green_Birdwing",
+      "field": "cooltime.c",
+      "key": 1001920,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_JijeongLeaf_Insect",
+      "field": "cooltime.a",
+      "key": 1001307,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_JijeongLeaf_Insect",
+      "field": "cooltime.b",
+      "key": 1001307,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_JijeongLeaf_Insect",
+      "field": "cooltime.c",
+      "key": 1001307,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_WaterStrider",
+      "field": "cooltime.a",
+      "key": 1001794,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_WaterStrider",
+      "field": "cooltime.b",
+      "key": 1001794,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_WaterStrider",
+      "field": "cooltime.c",
+      "key": 1001794,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_House_Centipede",
+      "field": "cooltime.a",
+      "key": 1001231,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_House_Centipede",
+      "field": "cooltime.b",
+      "key": 1001231,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_House_Centipede",
+      "field": "cooltime.c",
+      "key": 1001231,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_White_M_Hairstreak",
+      "field": "cooltime.a",
+      "key": 1000145,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_White_M_Hairstreak",
+      "field": "cooltime.b",
+      "key": 1000145,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_White_M_Hairstreak",
+      "field": "cooltime.c",
+      "key": 1000145,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Hypaurotis_Crysalus",
+      "field": "cooltime.a",
+      "key": 1001930,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Hypaurotis_Crysalus",
+      "field": "cooltime.b",
+      "key": 1001930,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Hypaurotis_Crysalus",
+      "field": "cooltime.c",
+      "key": 1001930,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Lustrous_Copper",
+      "field": "cooltime.a",
+      "key": 1000222,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Lustrous_Copper",
+      "field": "cooltime.b",
+      "key": 1000222,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Lustrous_Copper",
+      "field": "cooltime.c",
+      "key": 1000222,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Butterfly",
+      "field": "cooltime.a",
+      "key": 1001237,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Butterfly",
+      "field": "cooltime.b",
+      "key": 1001237,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Butterfly",
+      "field": "cooltime.c",
+      "key": 1001237,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Checkered_White",
+      "field": "cooltime.a",
+      "key": 1000075,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Checkered_White",
+      "field": "cooltime.b",
+      "key": 1000075,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Checkered_White",
+      "field": "cooltime.c",
+      "key": 1000075,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Gnat",
+      "field": "cooltime.a",
+      "key": 1001238,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Gnat",
+      "field": "cooltime.b",
+      "key": 1001238,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Gnat",
+      "field": "cooltime.c",
+      "key": 1001238,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_GnatWide",
+      "field": "cooltime.a",
+      "key": 1001323,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_GnatWide",
+      "field": "cooltime.b",
+      "key": 1001323,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_GnatWide",
+      "field": "cooltime.c",
+      "key": 1001323,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Grizzled_Skipper",
+      "field": "cooltime.a",
+      "key": 1000226,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Grizzled_Skipper",
+      "field": "cooltime.b",
+      "key": 1000226,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Grizzled_Skipper",
+      "field": "cooltime.c",
+      "key": 1000226,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Little_Wood_Satyr",
+      "field": "cooltime.a",
+      "key": 1001914,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Little_Wood_Satyr",
+      "field": "cooltime.b",
+      "key": 1001914,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Little_Wood_Satyr",
+      "field": "cooltime.c",
+      "key": 1001914,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Neophasia_Terlooii",
+      "field": "cooltime.a",
+      "key": 1001928,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Neophasia_Terlooii",
+      "field": "cooltime.b",
+      "key": 1001928,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Neophasia_Terlooii",
+      "field": "cooltime.c",
+      "key": 1001928,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Moth",
+      "field": "cooltime.a",
+      "key": 1001244,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Moth",
+      "field": "cooltime.b",
+      "key": 1001244,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Moth",
+      "field": "cooltime.c",
+      "key": 1001244,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_White_Peacock",
+      "field": "cooltime.a",
+      "key": 1001005,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_White_Peacock",
+      "field": "cooltime.b",
+      "key": 1001005,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_White_Peacock",
+      "field": "cooltime.c",
+      "key": 1001005,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Painted_Lady",
+      "field": "cooltime.a",
+      "key": 1001065,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Painted_Lady",
+      "field": "cooltime.b",
+      "key": 1001065,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Painted_Lady",
+      "field": "cooltime.c",
+      "key": 1001065,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_88_Butterfly",
+      "field": "cooltime.a",
+      "key": 1001921,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_88_Butterfly",
+      "field": "cooltime.b",
+      "key": 1001921,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_88_Butterfly",
+      "field": "cooltime.c",
+      "key": 1001921,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Orange_Barred_Sulphur",
+      "field": "cooltime.a",
+      "key": 1000079,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Orange_Barred_Sulphur",
+      "field": "cooltime.b",
+      "key": 1000079,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Orange_Barred_Sulphur",
+      "field": "cooltime.c",
+      "key": 1000079,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Desert_Orange_tip",
+      "field": "cooltime.a",
+      "key": 1000126,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Desert_Orange_tip",
+      "field": "cooltime.b",
+      "key": 1000126,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Desert_Orange_tip",
+      "field": "cooltime.c",
+      "key": 1000126,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Lycaena_Phlaeas",
+      "field": "cooltime.a",
+      "key": 1001931,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Lycaena_Phlaeas",
+      "field": "cooltime.b",
+      "key": 1001931,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Lycaena_Phlaeas",
+      "field": "cooltime.c",
+      "key": 1001931,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Crimson_Patch",
+      "field": "cooltime.a",
+      "key": 1001004,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Crimson_Patch",
+      "field": "cooltime.b",
+      "key": 1001004,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Crimson_Patch",
+      "field": "cooltime.c",
+      "key": 1001004,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Red_Spotted_Purple",
+      "field": "cooltime.a",
+      "key": 1001882,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Red_Spotted_Purple",
+      "field": "cooltime.b",
+      "key": 1001882,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Red_Spotted_Purple",
+      "field": "cooltime.c",
+      "key": 1001882,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Regal_Fritillary",
+      "field": "cooltime.a",
+      "key": 1000883,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Regal_Fritillary",
+      "field": "cooltime.b",
+      "key": 1000883,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Regal_Fritillary",
+      "field": "cooltime.c",
+      "key": 1000883,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Diana_Fritillary",
+      "field": "cooltime.a",
+      "key": 1001003,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Diana_Fritillary",
+      "field": "cooltime.b",
+      "key": 1001003,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Diana_Fritillary",
+      "field": "cooltime.c",
+      "key": 1001003,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Common_Buckeye",
+      "field": "cooltime.a",
+      "key": 1000172,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Common_Buckeye",
+      "field": "cooltime.b",
+      "key": 1000172,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Common_Buckeye",
+      "field": "cooltime.c",
+      "key": 1000172,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Eastern_Comma",
+      "field": "cooltime.a",
+      "key": 1000213,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Eastern_Comma",
+      "field": "cooltime.b",
+      "key": 1000213,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Eastern_Comma",
+      "field": "cooltime.c",
+      "key": 1000213,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Rusty_Tipped_Page",
+      "field": "cooltime.a",
+      "key": 1001008,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Rusty_Tipped_Page",
+      "field": "cooltime.b",
+      "key": 1001008,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Rusty_Tipped_Page",
+      "field": "cooltime.c",
+      "key": 1001008,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Sleepy_Orange",
+      "field": "cooltime.a",
+      "key": 1000119,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Sleepy_Orange",
+      "field": "cooltime.b",
+      "key": 1000119,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Sleepy_Orange",
+      "field": "cooltime.c",
+      "key": 1000119,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Ruddy_Daggerwing",
+      "field": "cooltime.a",
+      "key": 1001913,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Ruddy_Daggerwing",
+      "field": "cooltime.b",
+      "key": 1001913,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Ruddy_Daggerwing",
+      "field": "cooltime.c",
+      "key": 1001913,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Milbert_Tortoiseshell",
+      "field": "cooltime.a",
+      "key": 1000185,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Milbert_Tortoiseshell",
+      "field": "cooltime.b",
+      "key": 1000185,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Milbert_Tortoiseshell",
+      "field": "cooltime.c",
+      "key": 1000185,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Tiger_Mimic_Queen",
+      "field": "cooltime.a",
+      "key": 1000797,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Tiger_Mimic_Queen",
+      "field": "cooltime.b",
+      "key": 1000797,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Tiger_Mimic_Queen",
+      "field": "cooltime.c",
+      "key": 1000797,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Viceroy",
+      "field": "cooltime.a",
+      "key": 1001253,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Viceroy",
+      "field": "cooltime.b",
+      "key": 1001253,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Viceroy",
+      "field": "cooltime.c",
+      "key": 1001253,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Monarch",
+      "field": "cooltime.a",
+      "key": 1001254,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Monarch",
+      "field": "cooltime.b",
+      "key": 1001254,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Monarch",
+      "field": "cooltime.c",
+      "key": 1001254,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Cockroach",
+      "field": "cooltime.a",
+      "key": 1001239,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Cockroach",
+      "field": "cooltime.b",
+      "key": 1001239,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Cockroach",
+      "field": "cooltime.c",
+      "key": 1001239,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Camel_Cricket",
+      "field": "cooltime.a",
+      "key": 1001198,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Camel_Cricket",
+      "field": "cooltime.b",
+      "key": 1001198,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Camel_Cricket",
+      "field": "cooltime.c",
+      "key": 1001198,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Sea_Siater",
+      "field": "cooltime.a",
+      "key": 1001243,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Sea_Siater",
+      "field": "cooltime.b",
+      "key": 1001243,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Sea_Siater",
+      "field": "cooltime.c",
+      "key": 1001243,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Jewel_Beetle",
+      "field": "cooltime.a",
+      "key": 1002085,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Jewel_Beetle",
+      "field": "cooltime.b",
+      "key": 1002085,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Jewel_Beetle",
+      "field": "cooltime.c",
+      "key": 1002085,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Snail",
+      "field": "cooltime.a",
+      "key": 1001741,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Snail",
+      "field": "cooltime.b",
+      "key": 1001741,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Snail",
+      "field": "cooltime.c",
+      "key": 1001741,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_BananaSpider",
+      "field": "cooltime.a",
+      "key": 1000582,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_BananaSpider",
+      "field": "cooltime.b",
+      "key": 1000582,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_BananaSpider",
+      "field": "cooltime.c",
+      "key": 1000582,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Beetle",
+      "field": "cooltime.a",
+      "key": 1002095,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Beetle",
+      "field": "cooltime.b",
+      "key": 1002095,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Beetle",
+      "field": "cooltime.c",
+      "key": 1002095,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Stag_Beetle",
+      "field": "cooltime.a",
+      "key": 1002081,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Stag_Beetle",
+      "field": "cooltime.b",
+      "key": 1002081,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Stag_Beetle",
+      "field": "cooltime.c",
+      "key": 1002081,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Longhorn_Beetle",
+      "field": "cooltime.a",
+      "key": 1002084,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Longhorn_Beetle",
+      "field": "cooltime.b",
+      "key": 1002084,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Longhorn_Beetle",
+      "field": "cooltime.c",
+      "key": 1002084,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Rhinoceros_Beetle",
+      "field": "cooltime.a",
+      "key": 1001421,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Rhinoceros_Beetle",
+      "field": "cooltime.b",
+      "key": 1001421,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Rhinoceros_Beetle",
+      "field": "cooltime.c",
+      "key": 1001421,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "scorpion",
+      "field": "cooltime.a",
+      "key": 1001134,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "scorpion",
+      "field": "cooltime.b",
+      "key": 1001134,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "scorpion",
+      "field": "cooltime.c",
+      "key": 1001134,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Spider",
+      "field": "cooltime.a",
+      "key": 1001312,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Spider",
+      "field": "cooltime.b",
+      "key": 1001312,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Spider",
+      "field": "cooltime.c",
+      "key": 1001312,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "centipede",
+      "field": "cooltime.a",
+      "key": 1001135,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "centipede",
+      "field": "cooltime.b",
+      "key": 1001135,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "centipede",
+      "field": "cooltime.c",
+      "key": 1001135,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Black_Centipede",
+      "field": "cooltime.a",
+      "key": 1001233,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Black_Centipede",
+      "field": "cooltime.b",
+      "key": 1001233,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Item_Black_Centipede",
+      "field": "cooltime.c",
+      "key": 1001233,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "frog",
+      "field": "cooltime.a",
+      "key": 1001154,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "frog",
+      "field": "cooltime.b",
+      "key": 1001154,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "frog",
+      "field": "cooltime.c",
+      "key": 1001154,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "greenfrog",
+      "field": "cooltime.a",
+      "key": 1001155,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "greenfrog",
+      "field": "cooltime.b",
+      "key": 1001155,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "greenfrog",
+      "field": "cooltime.c",
+      "key": 1001155,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "toad",
+      "field": "cooltime.a",
+      "key": 1001156,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "toad",
+      "field": "cooltime.b",
+      "key": 1001156,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "toad",
+      "field": "cooltime.c",
+      "key": 1001156,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "burrowingtoad",
+      "field": "cooltime.a",
+      "key": 1001157,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "burrowingtoad",
+      "field": "cooltime.b",
+      "key": 1001157,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "burrowingtoad",
+      "field": "cooltime.c",
+      "key": 1001157,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Rosemary",
+      "field": "cooltime.a",
+      "key": 751103,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Rosemary",
+      "field": "cooltime.b",
+      "key": 751103,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Rosemary",
+      "field": "cooltime.c",
+      "key": 751103,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Lavender",
+      "field": "cooltime.a",
+      "key": 751107,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Lavender",
+      "field": "cooltime.b",
+      "key": 751107,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Lavender",
+      "field": "cooltime.c",
+      "key": 751107,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Rosemary_yellow",
+      "field": "cooltime.a",
+      "key": 751106,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Rosemary_yellow",
+      "field": "cooltime.b",
+      "key": 751106,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Rosemary_yellow",
+      "field": "cooltime.c",
+      "key": 751106,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Lavender_yellow",
+      "field": "cooltime.a",
+      "key": 751110,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Lavender_yellow",
+      "field": "cooltime.b",
+      "key": 751110,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Lavender_yellow",
+      "field": "cooltime.c",
+      "key": 751110,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Cotton",
+      "field": "cooltime.a",
+      "key": 757012,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Cotton",
+      "field": "cooltime.b",
+      "key": 757012,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Cotton",
+      "field": "cooltime.c",
+      "key": 757012,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Dendrobium_Flower",
+      "field": "cooltime.a",
+      "key": 757013,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Dendrobium_Flower",
+      "field": "cooltime.b",
+      "key": 757013,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Dendrobium_Flower",
+      "field": "cooltime.c",
+      "key": 757013,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "WhiteHair_Root",
+      "field": "cooltime.a",
+      "key": 756804,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "WhiteHair_Root",
+      "field": "cooltime.b",
+      "key": 756804,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "WhiteHair_Root",
+      "field": "cooltime.c",
+      "key": 756804,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Rosemary_white",
+      "field": "cooltime.a",
+      "key": 751105,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Rosemary_white",
+      "field": "cooltime.b",
+      "key": 751105,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Rosemary_white",
+      "field": "cooltime.c",
+      "key": 751105,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Lavender_white",
+      "field": "cooltime.a",
+      "key": 751109,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Lavender_white",
+      "field": "cooltime.b",
+      "key": 751109,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Lavender_white",
+      "field": "cooltime.c",
+      "key": 751109,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "ThiefWand_Flower",
+      "field": "cooltime.a",
+      "key": 756802,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "ThiefWand_Flower",
+      "field": "cooltime.b",
+      "key": 756802,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "ThiefWand_Flower",
+      "field": "cooltime.c",
+      "key": 756802,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Peony",
+      "field": "cooltime.a",
+      "key": 757006,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Peony",
+      "field": "cooltime.b",
+      "key": 757006,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Peony",
+      "field": "cooltime.c",
+      "key": 757006,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Rosemary_pink",
+      "field": "cooltime.a",
+      "key": 751104,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Rosemary_pink",
+      "field": "cooltime.b",
+      "key": 751104,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Rosemary_pink",
+      "field": "cooltime.c",
+      "key": 751104,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Begonia",
+      "field": "cooltime.a",
+      "key": 757007,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Begonia",
+      "field": "cooltime.b",
+      "key": 757007,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Begonia",
+      "field": "cooltime.c",
+      "key": 757007,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "FoxBean_Flower",
+      "field": "cooltime.a",
+      "key": 757011,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "FoxBean_Flower",
+      "field": "cooltime.b",
+      "key": 757011,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "FoxBean_Flower",
+      "field": "cooltime.c",
+      "key": 757011,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Marigold",
+      "field": "cooltime.a",
+      "key": 757002,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Marigold",
+      "field": "cooltime.b",
+      "key": 757002,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Marigold",
+      "field": "cooltime.c",
+      "key": 757002,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Haasam",
+      "field": "cooltime.a",
+      "key": 756803,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Haasam",
+      "field": "cooltime.b",
+      "key": 756803,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Haasam",
+      "field": "cooltime.c",
+      "key": 756803,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "SnapDragon",
+      "field": "cooltime.a",
+      "key": 757004,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "SnapDragon",
+      "field": "cooltime.b",
+      "key": 757004,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "SnapDragon",
+      "field": "cooltime.c",
+      "key": 757004,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Lavender_blue",
+      "field": "cooltime.a",
+      "key": 751108,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Lavender_blue",
+      "field": "cooltime.b",
+      "key": 751108,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Lavender_blue",
+      "field": "cooltime.c",
+      "key": 751108,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Short_Horn",
+      "field": "cooltime.a",
+      "key": 1000663,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Short_Horn",
+      "field": "cooltime.b",
+      "key": 1000663,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Short_Horn",
+      "field": "cooltime.c",
+      "key": 1000663,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Possesion_Insam",
+      "field": "cooltime.a",
+      "key": 1000142,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Possesion_Insam",
+      "field": "cooltime.b",
+      "key": 1000142,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Possesion_Insam",
+      "field": "cooltime.c",
+      "key": 1000142,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Bear_Bile",
+      "field": "cooltime.a",
+      "key": 1000579,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Bear_Bile",
+      "field": "cooltime.b",
+      "key": 1000579,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Bear_Bile",
+      "field": "cooltime.c",
+      "key": 1000579,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Deer_Antler",
+      "field": "cooltime.a",
+      "key": 756518,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Deer_Antler",
+      "field": "cooltime.b",
+      "key": 756518,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Deer_Antler",
+      "field": "cooltime.c",
+      "key": 756518,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Croton",
+      "field": "cooltime.a",
+      "key": 751122,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Croton",
+      "field": "cooltime.b",
+      "key": 751122,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Croton",
+      "field": "cooltime.c",
+      "key": 751122,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Bell_Flower",
+      "field": "cooltime.a",
+      "key": 757010,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Bell_Flower",
+      "field": "cooltime.b",
+      "key": 757010,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Bell_Flower",
+      "field": "cooltime.c",
+      "key": 757010,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Pansy",
+      "field": "cooltime.a",
+      "key": 757009,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Pansy",
+      "field": "cooltime.b",
+      "key": 757009,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Pansy",
+      "field": "cooltime.c",
+      "key": 757009,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Oleander",
+      "field": "cooltime.a",
+      "key": 1001705,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Oleander",
+      "field": "cooltime.b",
+      "key": 1001705,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Oleander",
+      "field": "cooltime.c",
+      "key": 1001705,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Chickadee",
+      "field": "cooltime.a",
+      "key": 756901,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Chickadee",
+      "field": "cooltime.b",
+      "key": 756901,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Chickadee",
+      "field": "cooltime.c",
+      "key": 756901,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Spider_Poison",
+      "field": "cooltime.a",
+      "key": 754004,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Spider_Poison",
+      "field": "cooltime.b",
+      "key": 754004,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Spider_Poison",
+      "field": "cooltime.c",
+      "key": 754004,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Acid_Spider_Poison",
+      "field": "cooltime.a",
+      "key": 754062,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Acid_Spider_Poison",
+      "field": "cooltime.b",
+      "key": 754062,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Acid_Spider_Poison",
+      "field": "cooltime.c",
+      "key": 754062,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Croton_Red",
+      "field": "cooltime.a",
+      "key": 751123,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Croton_Red",
+      "field": "cooltime.b",
+      "key": 751123,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Croton_Red",
+      "field": "cooltime.c",
+      "key": 751123,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "HolyWater",
+      "field": "cooltime.a",
+      "key": 22009,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "HolyWater",
+      "field": "cooltime.b",
+      "key": 22009,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "HolyWater",
+      "field": "cooltime.c",
+      "key": 22009,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "High_HolyWater",
+      "field": "cooltime.a",
+      "key": 1000476,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "High_HolyWater",
+      "field": "cooltime.b",
+      "key": 1000476,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "High_HolyWater",
+      "field": "cooltime.c",
+      "key": 1000476,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Umbrella_Mushroom",
+      "field": "cooltime.a",
+      "key": 756701,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Umbrella_Mushroom",
+      "field": "cooltime.b",
+      "key": 756701,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "Umbrella_Mushroom",
+      "field": "cooltime.c",
+      "key": 756701,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "RedDeerHorn_Mushroom",
+      "field": "cooltime.a",
+      "key": 756703,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "RedDeerHorn_Mushroom",
+      "field": "cooltime.b",
+      "key": 756703,
+      "new": 5000,
+      "op": "set"
+    },
+    {
+      "entry": "RedDeerHorn_Mushroom",
+      "field": "cooltime.c",
+      "key": 756703,
       "new": 5000,
       "op": "set"
     }

@@ -2,7 +2,7 @@
 
 A set of small JSON mods for Crimson Desert, loaded through DMM (Definitive Mod Manager), that make Normal difficulty a bit harsher without switching to Hard:
 
-- **Food cooldown** — a longer shared cooldown between food items.
+- **Food cooldown** — a longer cooldown between food and other consumables (herbs, insects, holy water).
 - **Full eat animation** — on Normal, eating plays out like it does on Hard (optional, bundled with the cooldown).
 - **Palmar Pill limits** — cap how many revive pills you can carry.
 - **Hard enemies, Normal bosses** — regular enemies fight at Hard strength, bosses stay at Normal.
@@ -15,7 +15,7 @@ All files are built for **Crimson Desert 2.03.02** and use DMM's **field-name (V
 
 | File | What it does |
 |------|--------------|
-| `CD_Food_Cooldown_{2,5,10,15,30}s.field.json` | Shared food cooldown of 2–30 seconds for 477 food items (vanilla is 1s). |
+| `CD_Food_Cooldown_{2,5,10,15,30}s.field.json` | Shared cooldown of 2–30 seconds for 593 consumables — food, herbs, insects and holy water (vanilla is 1s). |
 | `CD_Food_Cooldown_{2,5,10,15,30}s_Full_Eat_Animation.field.json` | Same cooldown, **plus** the Hard-mode use action is enabled for all 548 consumables (food, herbs, insects, holy water), so the eating animation plays out. |
 
 All ten set the same cooldown fields, so enable only one.
