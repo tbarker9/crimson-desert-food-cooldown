@@ -1,9 +1,9 @@
 {
   "modinfo": {
-    "title": "CD Palmar Pill Limit 3/2 (build 2026-09-23)",
-    "version": "1.0.0",
+    "title": "CD Palmar Pill Limit 3/2",
+    "version": "2.03.02",
     "author": "Tommy",
-    "description": "Limits how many Palmar Pills you can carry: 3 Palmar Pills and 2 Refined Palmar Pills in total (vanilla 10 each). Lowers max_stack_count and turns on apply_max_stack_cap (the same total-carry cap the game uses for Refinement Tokens) in iteminfo. Built against game data 0.paver 020003000200e3cc19cb (2026-09-23 update); each change carries entry + rel_offset so DMM can re-anchor after future patches."
+    "description": "Limits how many Palmar Pills you can carry: 3 Palmar Pill(s) and 2 Refined Palmar Pill(s) in total (vanilla 10 each). Lowers max_stack_count where needed and turns on apply_max_stack_cap (the total-carry cap the game uses for Refinement Tokens). Built for Crimson Desert 2.03.02. Each change also carries entry + rel_offset so DMM can re-anchor it by record if a future patch moves things."
   },
   "format": 2,
   "patches": [
