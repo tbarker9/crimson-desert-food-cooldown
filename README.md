@@ -46,10 +46,6 @@ Vanilla is 10 of each with no total cap. These lower `max_stack_count` and turn 
 2. Enable them in DMM and mount.
 3. Check `mount_log.txt` — every change should show `orig matched, patched`, with **no** `[STALE]` lines and no "needs an author update" warnings. If any appear, unmount and do not play.
 
-## Older builds
-
-`build20260904/` holds the food cooldown files for the 2026-09-04 game build, kept for reference only. Do not use them on the current game.
-
 ## Credits
 
 - Food cooldown is based on **CD Food Cooldown** by **Rogue69** — <https://www.nexusmods.com/crimsondesert/mods/3090>
