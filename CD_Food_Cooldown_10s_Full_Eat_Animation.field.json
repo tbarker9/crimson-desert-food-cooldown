@@ -2,7 +2,7 @@
   "format": 3,
   "modinfo": {
     "author": "Tommy",
-    "description": "Sets all food shared cooldown to 10 seconds (10000ms) for 593 consumables (food, herbs, insects, holy water), and gives Normal difficulty the Hard-mode use action for all 548 consumables (food, herbs, insects, holy water) so the eating animation plays out. Built for Crimson Desert 2.03.02. Food cooldown based on CD Food Cooldown by Rogue69 (Nexus mod 3090). Field-name (V3) mod: DMM locates each field itself, so it survives game updates that move data.",
+    "description": "Sets all food shared cooldown to 10 seconds (10000ms) for 610 consumables (food, plus herbs, insects, holy water, elixirs and horse tonics), and gives Normal difficulty the Hard-mode use action for all 548 consumables (food, herbs, insects, holy water) so the eating animation plays out. Built for Crimson Desert 2.03.02. Food cooldown based on CD Food Cooldown by Rogue69 (Nexus mod 3090). Field-name (V3) mod: DMM locates each field itself, so it survives game updates that move data.",
     "title": "CD Food Cooldown 10s + Full Eat Animation",
     "version": "2.03.02"
   },
@@ -12460,6 +12460,363 @@
           "entry": "RedDeerHorn_Mushroom",
           "field": "cooltime.c",
           "key": 756703,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "HorseFeed_Hp_Potion",
+          "field": "cooltime.a",
+          "key": 749201,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "HorseFeed_Hp_Potion",
+          "field": "cooltime.b",
+          "key": 749201,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "HorseFeed_Hp_Potion",
+          "field": "cooltime.c",
+          "key": 749201,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "HorseFeed_Speed_Potion",
+          "field": "cooltime.a",
+          "key": 749203,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "HorseFeed_Speed_Potion",
+          "field": "cooltime.b",
+          "key": 749203,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "HorseFeed_Speed_Potion",
+          "field": "cooltime.c",
+          "key": 749203,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier1_0001",
+          "field": "cooltime.a",
+          "key": 1000028,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier1_0001",
+          "field": "cooltime.b",
+          "key": 1000028,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier1_0001",
+          "field": "cooltime.c",
+          "key": 1000028,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier1_0002",
+          "field": "cooltime.a",
+          "key": 1000030,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier1_0002",
+          "field": "cooltime.b",
+          "key": 1000030,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier1_0002",
+          "field": "cooltime.c",
+          "key": 1000030,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier1_0003",
+          "field": "cooltime.a",
+          "key": 1000034,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier1_0003",
+          "field": "cooltime.b",
+          "key": 1000034,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier1_0003",
+          "field": "cooltime.c",
+          "key": 1000034,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier1_0004",
+          "field": "cooltime.a",
+          "key": 1000085,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier1_0004",
+          "field": "cooltime.b",
+          "key": 1000085,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier1_0004",
+          "field": "cooltime.c",
+          "key": 1000085,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier1_0005",
+          "field": "cooltime.a",
+          "key": 1000112,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier1_0005",
+          "field": "cooltime.b",
+          "key": 1000112,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier1_0005",
+          "field": "cooltime.c",
+          "key": 1000112,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier2_0001",
+          "field": "cooltime.a",
+          "key": 1000174,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier2_0001",
+          "field": "cooltime.b",
+          "key": 1000174,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier2_0001",
+          "field": "cooltime.c",
+          "key": 1000174,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier2_0002",
+          "field": "cooltime.a",
+          "key": 1000175,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier2_0002",
+          "field": "cooltime.b",
+          "key": 1000175,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier2_0002",
+          "field": "cooltime.c",
+          "key": 1000175,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier2_0003",
+          "field": "cooltime.a",
+          "key": 1000228,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier2_0003",
+          "field": "cooltime.b",
+          "key": 1000228,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier2_0003",
+          "field": "cooltime.c",
+          "key": 1000228,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier2_0004",
+          "field": "cooltime.a",
+          "key": 1000229,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier2_0004",
+          "field": "cooltime.b",
+          "key": 1000229,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier2_0004",
+          "field": "cooltime.c",
+          "key": 1000229,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier2_0005",
+          "field": "cooltime.a",
+          "key": 1000230,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier2_0005",
+          "field": "cooltime.b",
+          "key": 1000230,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier2_0005",
+          "field": "cooltime.c",
+          "key": 1000230,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier3_0001",
+          "field": "cooltime.a",
+          "key": 1000304,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier3_0001",
+          "field": "cooltime.b",
+          "key": 1000304,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier3_0001",
+          "field": "cooltime.c",
+          "key": 1000304,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier3_0002",
+          "field": "cooltime.a",
+          "key": 1000320,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier3_0002",
+          "field": "cooltime.b",
+          "key": 1000320,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier3_0002",
+          "field": "cooltime.c",
+          "key": 1000320,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier3_0003",
+          "field": "cooltime.a",
+          "key": 1000377,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier3_0003",
+          "field": "cooltime.b",
+          "key": 1000377,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier3_0003",
+          "field": "cooltime.c",
+          "key": 1000377,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier3_0004",
+          "field": "cooltime.a",
+          "key": 1000392,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier3_0004",
+          "field": "cooltime.b",
+          "key": 1000392,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier3_0004",
+          "field": "cooltime.c",
+          "key": 1000392,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier3_0005",
+          "field": "cooltime.a",
+          "key": 1000448,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier3_0005",
+          "field": "cooltime.b",
+          "key": 1000448,
+          "new": 10000,
+          "op": "set"
+        },
+        {
+          "entry": "Potion_StatBuff_Tier3_0005",
+          "field": "cooltime.c",
+          "key": 1000448,
           "new": 10000,
           "op": "set"
         }
