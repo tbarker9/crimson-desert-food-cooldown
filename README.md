@@ -16,7 +16,7 @@ All files are built for **Crimson Desert 2.03.02**. Every change also carries `e
 | File | What it does |
 |------|--------------|
 | `CD_Food_Cooldown_{2,5,10,15,30}s.json` | Shared food cooldown of 2–30 seconds for 477 food items (vanilla is 1s). |
-| `CD_Food_Cooldown_{2,5,10,15,30}s_Full_Eat_Animation.json` | Same cooldown, **plus** Normal difficulty uses the Hard-mode use action for all 548 consumables (food, herbs, insects, holy water), so the eating animation plays out. |
+| `CD_Food_Cooldown_{2,5,10,15,30}s_Full_Eat_Animation.json` | Same cooldown, **plus** the Hard-mode use action is enabled for all 548 consumables (food, herbs, insects, holy water), so the eating animation plays out. |
 
 All ten patch the same cooldown bytes, so enable only one.
 
