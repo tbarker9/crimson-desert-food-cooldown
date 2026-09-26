@@ -9,6 +9,28 @@ A set of small JSON mods for Crimson Desert, loaded through DMM (Definitive Mod 
 
 All files are built for **Crimson Desert 2.03.02** and use DMM's **field-name (V3) format** (`.field.json`): each change names the item and the field it sets (for example `max_stack_count` on `RevivalItem`), and DMM locates the data itself. That means they survive game updates that move or resize records. Requires **DMM 3.x**.
 
+## Quick start: cdmods (no mod manager needed)
+
+`cdmods.py` applies these mods straight to the game — no DMM required. It needs only Python 3 (already installed on practically every Linux distro) and finds your Crimson Desert install through Steam automatically.
+
+```
+./cdmods.py            # menu: pick a food cooldown, a Palmar Pill limit, Hard Enemies — then A to apply
+./cdmods.py status     # game version, backup, what is applied
+./cdmods.py restore    # back to the original game files
+```
+
+Keys in the menu: ↑/↓ (or j/k) move, Space select, **A** apply, **R** restore original, **Q** quit.
+
+How it works:
+
+- It never edits the game's archives. The modified tables go into an extra archive folder, `cdmods/`, in the game directory, registered in the game's archive index `meta/0.papgt` — the only original file that changes.
+- Before the first change, `meta/0.papgt` is backed up to `~/.local/share/cd-mods/<game version>/`. A backup only counts for the exact game version it was taken from.
+- Every apply starts from the originals (restore, then rebuild from the untouched game tables), so switching options never stacks changes.
+- If the game files aren't original — a game update, another mod manager with mods mounted, manual edits — it refuses and tells you to run Steam "Verify integrity of game files" (or `restore`, if it holds a backup for your version).
+- Close the game before applying or restoring. After a game update, just run it again.
+
+If you use DMM instead, don't use both at once: unmount in DMM before using cdmods, and restore with cdmods before mounting in DMM.
+
 ## Files
 
 ### Food cooldown — pick one
@@ -42,7 +64,7 @@ Vanilla is 10 of each with no total cap. These lower `max_stack_count` and turn 
 |------|--------------|
 | `CD_Hard_Enemies_Normal_Bosses.field.json` | On Normal, 5,730 characters on the regular difficulty buff use the Hard level: more HP, knockdown resistance, faster attacks and movement. Bosses and mini-bosses stay at Normal, as does the player. |
 
-## Install
+## Install with DMM (alternative)
 
 1. Copy the files you want into your DMM `mods/` folder — at most one food cooldown file and one Palmar Pill file; the enemy file can go alongside both.
 2. Enable them in DMM and mount.
