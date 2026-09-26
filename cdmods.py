@@ -319,9 +319,12 @@ def _find_apply_max_stack_cap(t, start, end, data):
 
 
 def _find_difficulty_list(body, start, end):
-    """game_difficulty_buff_level_list: u32 levels (0,1,2,3) right before a BuffLevel_Difficulty* key."""
+    """game_difficulty_buff_level_list: u32 levels (0,1,2,3) right before a BuffLevel_Difficulty* key.
+
+    The key is followed by one byte that varies per character (03 for enemies, 00-03 for playable
+    characters) and then ff ff ff ff."""
     for i in range(start + 16, end - 9):
-        if body[i + 4:i + 9] == b'\x03\xff\xff\xff\xff' and \
+        if body[i + 5:i + 9] == b'\xff\xff\xff\xff' and \
                 struct.unpack_from('<I', body, i)[0] in (1000276, 1000277, 1000278) and \
                 struct.unpack_from('<4I', body, i - 16) == (0, 1, 2, 3):
             return i - 16

@@ -1,0 +1,54 @@
+{
+  "format": 3,
+  "modinfo": {
+    "author": "Tommy",
+    "title": "CD Hard Damage Taken (+30%)",
+    "description": "On Normal difficulty, you take Hard-mode damage: the player difficulty buff (BuffLevel_Difficulty_PC) uses its Hard level, +30% damage taken, for the playable characters Kliff, Damian, Oongka, Yann, Nairah and Witch. Enemies and bosses are unaffected. Built for Crimson Desert 2.03.02. Field-name (V3) mod: DMM locates each field itself, so it survives game updates that move data.",
+    "version": "2.03.02"
+  },
+  "target": "characterinfo.pabgb",
+  "intents": [
+    {
+      "entry": "Kliff",
+      "field": "game_difficulty_buff_level_list.b",
+      "key": 1,
+      "new": 3,
+      "op": "set"
+    },
+    {
+      "entry": "Damian",
+      "field": "game_difficulty_buff_level_list.b",
+      "key": 4,
+      "new": 3,
+      "op": "set"
+    },
+    {
+      "entry": "Oongka",
+      "field": "game_difficulty_buff_level_list.b",
+      "key": 6,
+      "new": 3,
+      "op": "set"
+    },
+    {
+      "entry": "Yann",
+      "field": "game_difficulty_buff_level_list.b",
+      "key": 1004085,
+      "new": 3,
+      "op": "set"
+    },
+    {
+      "entry": "Nairah",
+      "field": "game_difficulty_buff_level_list.b",
+      "key": 1004236,
+      "new": 3,
+      "op": "set"
+    },
+    {
+      "entry": "Witch",
+      "field": "game_difficulty_buff_level_list.b",
+      "key": 1004239,
+      "new": 3,
+      "op": "set"
+    }
+  ]
+}
